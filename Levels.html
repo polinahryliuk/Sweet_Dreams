@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Sweets" content="sweets, pastery, recipes"> 
+    <title>Sweet Dreams</title>
+    <link rel="icon" type="image/x-icon" href="Images/Cupcake_Logo.png">
+    <link rel="stylesheet" href="Styles/Style.css">
+</head>
+<body>
+    <header>
+        <img style="float:left; margin-right: 10px;border-radius: 50%;" src="Images/Cupcake_Logo.png" alt="logo" width="100">
+        <h1 style="color:rgb(169, 0, 79);text-align:left;">Sweet Dreams</h1>
+        <h2 style="color:rgb(0, 0, 0);text-align:left;">Levels</h2>
+    </header>
+    <style>
+        body {
+          background-image: url('Images/Aesthetic.png');
+        }
+        </style>
+    <main>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href = "Main.html" >Home</a>
+                <li><a href = "Levels.html" >Levels</a></li>
+                <li><a href = "Classic_recipes.html" >Classic recipes</a></li>
+                <li><a href = "Specials.html" >Specials</a></li>
+            </ul>
+        </nav>
+        <section>
+       <h2 id="head" >Find out your level of culinary skills</h2>
+       <div class="column"> <img id="Level" src="Images/Level.jpg" alt="Level"></div>
+        </section>
+           <h4>Determining your culinary level involves assessing your skills, knowledge, and experience in the kitchen. 
+            Here's a general guide to help you identify your culinary level:
+           </h4>
+           <dl>
+           <dt>1.Beginner:</dt>
+
+            <dd><h4>Limited experience in the kitchen.
+                    Basic knowledge of cooking techniques and terminology.
+                    Comfortable with simple recipes and tasks such as boiling, frying, and baking.
+                    Still learning fundamental skills like knife handling, seasoning, and recipe following.</h4></dd>
+
+            <dt>2.Intermediate:</dt>
+
+            <dd><h4>Moderate experience and confidence in the kitchen.
+                Familiar with a wider range of cooking techniques and ingredients.
+                Able to follow moderately complex recipes and adapt them to personal taste.
+                Developing skills in flavor balancing, sauce making, and recipe improvisation.</h4></dd>
+
+            <dt>3.Advanced:</dt>
+
+            <dd><h4>Extensive experience and proficiency in the kitchen.
+                Comfortable with a variety of advanced cooking techniques and methods.
+                Able to create complex dishes from scratch and experiment with flavors and textures.
+                Knowledgeable about different cuisines, food pairings, and culinary trends.
+                Capable of executing multi-course meals and catering to specific dietary preferences or restrictions.</h4></dd>
+          </dl>
+
+             <section>
+                <h4>Leave your comment here</h4>
+                <form action = "http:/foo.com" method="get">
+                    <label for="gender"> Gender : </label>
+                    <input type="radio" id="gender" name="gender" value="male"> Male
+                    <input type="radio" id="gender" name="gender" value="female"> Female
+                    <input type="radio" id="gender" name="gender" value="other" checked> other <br>
+                    <fieldset>
+                        <label for="checkbox"> Where did you see our website? : </label>
+                        <input type="checkbox" id ="internet" name="internet" value="internet" checked> Internet <br>
+                        <input type="checkbox" class ="marginl" name="hear" name="paper" value="paper"> Newspaper <br>
+                        <input type="checkbox" class ="marginl" name="hear" name="friend" value="friend"> Friend<br>
+                        <input type="checkbox" class ="marginl" name="hear" name="Add" value="Add"> Others <br>
+                    </fieldset>
+                    <label for="message" > Your comment : </label>
+                    <textarea cols ="40" rows ="6" id ="message" name ="message">Your message must be less than 200 characters </textarea>
+                        <input type ="submit" name ="submit" id ="button" value ="submit">
+                    </textarea>
+                </form>
+               </section>
+    </main>
+    <footer>
+        <h5 class ="Copyright">&copy;2024 College project</h5>
+    </footer>
+</body>
+</html>
